@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "simple-git": "^2.31.0"
+    "shelljs": "^0.8.4",
+    "simple-git": "^2.31.0",
+    "yargs": "^16.2.0"
   }
 }
