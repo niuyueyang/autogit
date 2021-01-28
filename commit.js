@@ -1,7 +1,7 @@
 const git = require('simple-git')
 const path = 'F:/autogit'
 const commitMessage = '提交'
-const repo = 'git@github.com:niuyueyang/autogit.git'
+const repo = 'https://niuyueyang:asdf123456A*@github.com/niuyueyang/autogit.git'
 
 git(path)
     .init()
