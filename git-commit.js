@@ -3,8 +3,7 @@ const path = 'F:\\autogit'
 const commitMessage = '提交时的说明'
 const repo = 'https://niuyueyang:asdf123456A*@github.com/niuyueyang/autogit.git'
 
-git(path)
-    .init()
+git().init()
     .add('./*')
     .commit(commitMessage)
     .addRemote('origin', repo)
